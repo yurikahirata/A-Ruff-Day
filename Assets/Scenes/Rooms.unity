@@ -2824,7 +2824,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openedBy: scissors
-  inventory: {fileID: 0}
   picksUp: {fileID: 0}
   creates: {fileID: 8534098}
   dRight: 1
@@ -3866,7 +3865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openedBy: scooper
-  inventory: {fileID: 0}
   picksUp: {fileID: 5001648658244732049, guid: 98af971673b084d09aa4af45e9d4c19d, type: 3}
   creates: {fileID: 0}
   dRight: 14
@@ -8447,7 +8445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openedBy: mittens
-  inventory: {fileID: 0}
   picksUp: {fileID: 4549770490714908797, guid: fac30c8bace2742389bc94dda985441a, type: 3}
   creates: {fileID: 0}
   dRight: 21
@@ -9759,7 +9756,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openedBy: tongs
-  inventory: {fileID: 0}
   picksUp: {fileID: 5977498461883371888, guid: 1aae1b0bf55f948ea82acac40fe642f6, type: 3}
   creates: {fileID: 0}
   dRight: 9
@@ -10319,7 +10315,6 @@ MonoBehaviour:
   dialogueBox: {fileID: 283781010}
   dialogue: {fileID: 0}
   dialogue2: {fileID: 0}
-  inventory: {fileID: 0}
   lines:
   - {fileID: 67673631362528700, guid: 18a01aab7ab9b41d9989e6e501c1e8ac, type: 3}
   - {fileID: 7216488214768390071, guid: b91fc98ac00c444c79402be071441341, type: 3}
@@ -11397,7 +11392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openedBy: key
-  inventory: {fileID: 1811607611}
   picksUp: {fileID: 0}
   creates: {fileID: 0}
   dRight: 19

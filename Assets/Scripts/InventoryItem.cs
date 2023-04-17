@@ -56,9 +56,12 @@ public class InventoryItem : MonoBehaviour
                 Transform thisParent = inventory.slots[indexNumber].transform;
 
                 Destroy(otherGameObject);
-                inventory.isFull[indexNumber] = false; // Set to false so new object can be instantiated
-                Instantiate(combinedProduct, thisParent, false); // Instantiate the combined product
-                thisParent.GetChild(1).gameObject.GetComponent<InventoryItem>().indexNumber = indexNumber; // Set the correct index number of combined product
+                // Set to false so new object can be instantiated
+                inventory.isFull[indexNumber] = false;
+                // Instantiate the combined product
+                Instantiate(combinedProduct, thisParent, false);
+                // Set the correct index number of combined product
+                thisParent.GetChild(1).gameObject.GetComponent<InventoryItem>().indexNumber = indexNumber;
 
                 
                 inventory.isFull[indexNumber] = true; // set combined object slot to full

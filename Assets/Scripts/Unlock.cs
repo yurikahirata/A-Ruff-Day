@@ -26,8 +26,6 @@ public class Unlock : MonoBehaviour
 
     private void OnMouseDown()
     {
-
-
         // Check if any items are selected
         for (int i = 0; i < inventory.isSelected.Length; i++)
         {
@@ -44,7 +42,7 @@ public class Unlock : MonoBehaviour
                     {
                         if (inventory.isFull[j] == false)
                         {
-                            // Add item
+                            // Add item to inventory
                             inventory.isFull[j] = true;
                             Instantiate(picksUp, inventory.slots[j].transform, false);
                             inventory.slots[j].transform.GetChild(0).GetComponent<InventoryItem>().indexNumber = j;

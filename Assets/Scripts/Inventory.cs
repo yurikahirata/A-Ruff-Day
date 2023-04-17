@@ -14,9 +14,7 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < isSelected.Length; i++)
         {
             isSelected[i] = false;
+            isFull[i] = false;
         }
-
     }
-
-    
 }
